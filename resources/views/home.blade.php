@@ -16,17 +16,6 @@
         </ul>
     </nav>
     <h1>Home</h1>
-    <div class="container">
-        @foreach ($autos as $auto)
-            <div class="value-auto">Nome: {{$auto->nome}}</div>
-            <div class="value-auto">Colore: {{$auto->colore}}</div>
-            <div class="value-auto">Cilindrata: {{$auto->cilindrata}}</div>
-            <div class="value-auto">Potenza: {{$auto->potenza}}</div>
-            <div class="value-auto">Misura ruote: {{$auto->misuraruote}}</div>
-            <div class="value-auto">Tipologia: {{$auto->tipologia}}</div>
-            <div class="value-auto">kmLitro: {{$auto->kmLitro}}</div>
-            <br>
-        @endforeach
-    </div>
+    <p>Collegare il database tramite file .env, fare le migrazioni e poi inserire e modificare le auto</p>
 </body>
 </html>
